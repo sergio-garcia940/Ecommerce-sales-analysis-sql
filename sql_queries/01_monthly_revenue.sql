@@ -1,3 +1,4 @@
+--Date formatting and monthly revenue calculation.--
 SELECT
   FORMAT_DATE('%Y-%m', DATE(o.order_purchase_timestamp)) AS year_month,
   ROUND(SUM(p.payment_value),2) AS monthly_revenue
