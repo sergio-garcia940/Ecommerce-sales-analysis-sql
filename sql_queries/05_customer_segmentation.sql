@@ -1,3 +1,4 @@
+--Applying customer categorization logic--
 WITH customer_metrics AS (
   SELECT
     c.customer_unique_id,
